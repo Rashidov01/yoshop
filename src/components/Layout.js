@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const Layout = (children, dir) => {
+const Layout = ({ children, dir }) => {
   return (
     <div dir={dir} className="layout">
       <header className="header">

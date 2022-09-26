@@ -1,0 +1,44 @@
+.nav-list {
+  @include list-unstyled;
+}
+
+.nav-list__item:not(:last-child),
+.action-header__holder:not(:last-child) {
+  margin-right: 3em;
+}
+
+.header-link {
+  font-size: 1.4em;
+  line-height: 25px;
+  color: $text-color;
+  transition: all ease 0.4s;
+  text-transform: capitalize;
+
+  &:hover {
+    color: $orange-cl;
+  }
+}
+
+.action-badge {
+  position: relative;
+}
+
+.action-header__btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.4em;
+  color: $text-color;
+}
+
+.action-header__badge {
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  font-size: 0.8em;
+  color: $light-color;
+  background-color: $orange-cl;
+  padding: 4px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}

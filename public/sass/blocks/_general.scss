@@ -1,0 +1,78 @@
+.between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// flexbox-styles
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+// primary-btn
+
+.primary-btn {
+  display: inline-block;
+  padding: 8px 24px;
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 24px;
+  color: $light-grey-color;
+  background-color: $violet-color;
+  border-radius: 8px;
+  transition: all ease 0.4s;
+  text-transform: capitalize;
+
+  &:hover {
+    background-color: $orange-cl;
+    color: $light-grey-color;
+  }
+}
+
+// section-styles
+
+.section-head {
+  margin-bottom: 44px;
+}
+
+.section-title {
+  margin: 0;
+  margin-right: 5px;
+  font-weight: 700;
+  font-size: 3.2em;
+  line-height: 140%;
+  color: $text-color;
+}
+
+.section-text {
+  margin: 0;
+  margin-bottom: 22px;
+  width: 100%;
+  max-width: 432px;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 180%;
+  color: $subtitle-color;
+}
