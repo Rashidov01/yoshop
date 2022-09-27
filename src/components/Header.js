@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "./NavLink";
 import Image from "next/image";
+import Btn from "./Btn";
 
 const Header = () => {
   return (
@@ -49,9 +50,7 @@ const Header = () => {
           </NavLink>
         </div>
         <div className="action-header__holder">
-          <NavLink className="action-header__link primary-btn" href="">
-            Sign Up
-          </NavLink>
+          <Btn text="sign up" style="inline" />
         </div>
         <div className="action-header__holder action-badge">
           <button className="action-header__btn" type="button">

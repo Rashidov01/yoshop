@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Btn from "../components/Btn";
 
 export default function Home() {
   return (
@@ -15,9 +16,7 @@ export default function Home() {
               YoShop POS is a multifunctional inventory software that allows you
               to fully automate the work of the store
             </p>
-            <Link className="hero__link" href="#">
-              <a className="hero__link primary-btn">Get Started</a>
-            </Link>
+            <Btn text="Get started" />
           </div>
           <div className="hero-wrapper__img">
             <Image
@@ -71,9 +70,7 @@ export default function Home() {
             <p className="section-text">
               With a YoShop License, you can use the phone as a Pos terminal
             </p>
-            <Link href="#">
-              <a className="primary-btn">buy</a>
-            </Link>
+            <Btn text="buy" />
           </div>
           <div className="benefir-container__holder">
             <Image src="/assets/images/benefit.svg" width="812" height="560" />
