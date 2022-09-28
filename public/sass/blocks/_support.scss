@@ -1,0 +1,36 @@
+.support {
+  padding: 45px 0;
+}
+
+.support-inner__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.support-box {
+  padding: 80px 24px 24px;
+  min-height: 350px;
+  width: calc(25% - 30px);
+  background: $light-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.support-box__title {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 1.6em;
+  line-height: 140%;
+  color: $text-color;
+  text-transform: capitalize;
+}
+
+.support-box__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.4em;
+  line-height: 180%;
+  color: rgba(18, 17, 39, 0.56);
+}

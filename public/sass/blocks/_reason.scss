@@ -2,6 +2,17 @@
   padding: 45px 0;
 }
 
+.reason-inner__container {
+  width: calc(50% - 20px);
+}
+
 .reason__title {
   margin-bottom: 44px;
+}
+
+.reason-inner__image {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  object-position: right;
 }

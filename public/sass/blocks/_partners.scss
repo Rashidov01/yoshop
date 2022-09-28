@@ -1,0 +1,47 @@
+.partners {
+  padding: 45px 0;
+}
+
+.partners-inner__container {
+  margin-top: -20px;
+  margin-bottom: -20px;
+  // gap: 20px;
+}
+
+.partner-box__head {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners-box {
+  min-width: 180px;
+  max-width: 180px;
+  min-height: 180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 20px 15px;
+  background: rgba(255, 255, 255, 0.57);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+}
+
+.partners-box__card:hover .partners-box__text {
+  color: $orange-cl;
+}
+
+.partners-box__text {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 24px;
+  color: $text-color;
+  text-transform: capitalize;
+}

@@ -75,7 +75,12 @@ export default function Home() {
             <Btn text="buy" />
           </div>
           <div className="benefir-container__holder">
-            <Image src="/assets/images/benefit.svg" width="812" height="560" />
+            <Image
+              src="/assets/images/benefit.png"
+              width="812"
+              height="560"
+              alt="benefit image"
+            />
           </div>
         </div>
       </section>
@@ -141,12 +146,173 @@ export default function Home() {
         </div>
       </section>
       <section className="reason">
-        <div className="reason-inner container">
+        <div className="reason-inner container between">
           <div className="reason-inner__container">
             <h2 className="reason__title section-title">
               Why we should choose YoShop?
             </h2>
             <SiteAccordion />
+          </div>
+          <div className="reason-inner__container">
+            <img
+              className="reason-inner__image"
+              src="/assets/images/reason.png"
+              alt="reason image"
+              width="650"
+              height="610"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="support">
+        <div className="support-inner container">
+          <h2
+            className="support__title section-title"
+            style={{ marginBottom: "44px" }}
+          >
+            YoShop has full Support
+          </h2>
+          <div className="support-inner__container">
+            <div className="support-inner__box support-box">
+              <Image
+                src="/assets/icons/safety.svg"
+                alt="safety logo"
+                width="85"
+                height="55"
+              />
+              <h4 className="support-box__title">Safety and legal</h4>
+              <p className="support-box__text">
+                You will be able to get complete information about YoShop
+              </p>
+            </div>
+            <div className="support-inner__box support-box">
+              <Image
+                src="/assets/icons/call.svg"
+                alt="call logo"
+                width="85"
+                height="55"
+              />
+              <h4 className="support-box__title">Call-Center</h4>
+              <p className="support-box__text">
+                We are ready to tell you in detail about all the possibilities
+                of the terminal and answer all your questions, consult
+              </p>
+            </div>
+            <div className="support-inner__box support-box">
+              <Image
+                src="/assets/icons/edu.svg"
+                alt="education logo"
+                width="85"
+                height="55"
+              />
+              <h4 className="support-box__title">education</h4>
+              <p className="support-box__text">
+                Full support from IT-specialists. They train you and your
+                employees how to use the program
+              </p>
+            </div>
+            <div className="support-inner__box support-box">
+              <Image
+                src="/assets/icons/customer.svg"
+                alt="customer logo"
+                width="85"
+                height="55"
+              />
+              <h4 className="support-box__title">Customer support</h4>
+              <p className="support-box__text">
+                Our IT specialists will connect and configure the terminals. If
+                problems arise, any problems will be identified and corrected.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="partners">
+        <div className="partners-inner container">
+          <h2
+            className="partners__title section-title"
+            style={{ marginBottom: "44px" }}
+          >
+            YoShop Partners
+          </h2>
+          <div className="partners-inner__container between">
+            <div className="partner-inner__box partners-box">
+              <div className="partner-box__head">
+                <Image
+                  src={`/assets/icons/halyk.svg`}
+                  width="80"
+                  height="80"
+                  alt="halyk logo"
+                />
+              </div>
+              <span className="partners-box__text">Halyk bank</span>
+            </div>
+            <div className="partner-inner__box partners-box">
+              <div className="partner-box__head">
+                <Image
+                  src={`/assets/icons/tele.svg`}
+                  width="80"
+                  height="80"
+                  alt="tele logo"
+                />
+              </div>
+              <span className="partners-box__text">Tele 2</span>
+            </div>
+            <div className="partner-inner__box partners-box">
+              <div className="partner-box__head">
+                <Image
+                  src={`/assets/icons/webkassa.svg`}
+                  width="80"
+                  height="80"
+                  alt="webkassa logo"
+                />
+              </div>
+              <span className="partners-box__text">Webkassa</span>
+            </div>
+            <div className="partner-inner__box partners-box">
+              <div className="partner-box__head">
+                <Image
+                  src={`/assets/icons/openway.svg`}
+                  width="130"
+                  height="45"
+                  alt="openway logo"
+                />
+              </div>
+              <span className="partners-box__text">Openway</span>
+            </div>
+            <div className="partner-inner__box partners-box">
+              <div className="partner-box__head">
+                <Image
+                  src={`/assets/icons/beeline.svg`}
+                  width="150"
+                  height="65"
+                  alt="beeline logo"
+                />
+              </div>
+              <span className="partners-box__text">Beeline</span>
+            </div>
+            <div className="partner-inner__box partners-box">
+              <div className="partner-box__head">
+                <Image
+                  src={`/assets/icons/myshop.svg`}
+                  width="80"
+                  height="75"
+                  alt="halyk logo"
+                />
+              </div>
+              <span className="partners-box__text">my shop</span>
+            </div>
+            <div className="partner-inner__box partners-box">
+              <div className="partner-box__head">
+                <Image
+                  src={`/assets/icons/telecom.svg`}
+                  width="100"
+                  height="100"
+                  alt="halyk logo"
+                />
+              </div>
+              <span className="partners-box__text">Kazakhtelecom</span>
+            </div>
           </div>
         </div>
       </section>

@@ -20,9 +20,14 @@
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: $light-yellow-color;
+  background-color: $light-grey-color;
   box-shadow: 0;
   border: none;
+  outline: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
 }
 
 .accordion-button:not(.collapsed) .accordion-text {
