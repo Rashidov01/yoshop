@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Btn from "../components/Btn";
+import Box from "../components/Box";
+import SiteAccordion from "../components/Accordion";
 
 export default function Home() {
   return (
@@ -77,16 +79,75 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="payment container">
-        <h2 className="payment__title section-title">
-          All types of payment systems
-        </h2>
-        <div className="payment-holder">
-          <Image
-            src="/assets/images/payment-type.svg"
-            width="1300"
-            height="590"
-          />
+      <section className="suit">
+        <div className="suit-inner container">
+          <h2 className="suit__title section-title">
+            YoShop suits many types of business
+          </h2>
+          <div className="site-box between">
+            <Box image="home" text="shops" />
+            <Box image="ambulance" text="Pharmacies" />
+            <Box image="food" text="HoReCa" />
+            <Box image="clinic" text="Medical centers" />
+            <Box image="repair" text="Auto parts" />
+            <Box image="cleaning" text="Сleaning companies" />
+            <Box image="salon" text="Beauty salon" />
+            <Box image="moto" text="Curier companys" />
+            <Box image="gym" text=" Gym" />
+            <Box image="parking" text="Parking" />
+          </div>
+        </div>
+      </section>
+      <section className="payment">
+        <div className="payment-inner container">
+          <h2 className="payment__title section-title">
+            All types of payment systems
+          </h2>
+          <div className="payment-holder">
+            <Image
+              src="/assets/images/payment-type.svg"
+              width="1300"
+              height="590"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="business">
+        <div className="business-inner between container">
+          <div className="business-inner__wrapper">
+            <h2
+              className="business__title section-title"
+              style={{ marginBottom: "44px" }}
+            >
+              Make your business comfortoble with YoShop
+            </h2>
+            <p
+              className="business__text section-text"
+              style={{ maxWidth: "100%" }}
+            >
+              DocuSign uses Dlex to track key metrics to improve customer
+              experience, resulting in more conversions, onboarding completions,
+              and paid upgrades.
+            </p>
+          </div>
+          <div className="business-inner__wrapper">
+            <Image
+              src="/assets/images/business.svg"
+              width="660"
+              height="400"
+              alt="business image"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="reason">
+        <div className="reason-inner container">
+          <div className="reason-inner__container">
+            <h2 className="reason__title section-title">
+              Why we should choose YoShop?
+            </h2>
+            <SiteAccordion />
+          </div>
         </div>
       </section>
     </>
